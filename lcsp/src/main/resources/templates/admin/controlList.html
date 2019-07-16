@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>管理员申请</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="/layuiadmin/style/admin.css" media="all">
+    <style>
+        .check-detail{
+            color: #60828b;
+            border: none;
+            background: transparent;
+            height: 0;
+            line-height: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <form class="layui-form layui-inline" action="">
+                        <div class="layui-form-item layui-inline">
+                            <div class="layui-input-block" style="margin-left: 0px;">
+                                <select name="state" lay-verify="required" lay-filter="state">
+                                    <option value="">全部状态</option>
+                                    <option value="ZT01">待审核</option>
+                                    <option value="ZT02">已通过</option>
+                                    <option value="ZT03">已拒绝</option>
+                                    <option value="ZT04">已反馈</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="layui-form-item layui-inline">
+                            <div class="layui-input-block" style="margin-left: 0px;">
+                                <select name="time" lay-verify="required" lay-filter="time">
+                                    <option value="">全部</option>
+                                    <option value="24">24小时之内</option>
+                                    <option value="48">48小时之内</option>
+                                    <option value="72">72小时之内</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                    <table class="layui-hide" id="test-table-cellEdit" lay-filter="test-table-cellEdit"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/html" id="barDemo">
+    <a class="layui-btn layui-btn-xs" lay-event="adopt">通过</a>
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="refuse">拒绝</a>
+    <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="check" lay-text="详情">查看</a>
+</script>
+<script src="/app.js"></script>
+<script src="/layuiadmin/layui/layui.js" charset="utf-8"></script>
+<!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
+<script>
+    layui.config({
+        base: '/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index','table'], function () {
+        var table = layui.table, form = layui.form,$ = layui.jquery;
+        var url = window.url;
+        var uid = localStorage.getItem('uid');
+        getControl("", "");
+        var cgl1 = "", cgl2 = "";
+        form.on('select(state)', function (data) {
+            cgl1 = data.value;
+            console.log("cgl1=" + cgl1, "cgl2=" + cgl2);
+            getControl(cgl1, cgl2);
+        });
+        form.on('select(time)', function (data) {
+            cgl2 = data.value;
+            console.log("cgl1=" + cgl1, "cgl2=" + cgl2);
+            getControl(cgl1, cgl2);
+        });
+
+        $("#applyNew").click(function () {
+            location.href = '../html/applyNew';
+        });
+
+    //    对申请进行操作，通过、拒绝、查看
+        table.on('tool(test-table-cellEdit)',function (obj) {
+            var data = obj.data;
+            var layEvent = obj.event;
+            console.log(data);
+            if (layEvent === 'adopt') {
+                console.log("通过");
+                layer.confirm('是否确认通过该申请？', function(index){
+                    layer.close(index);
+                    //    对申请进行通过操作，请求ajax，之后重新渲染表格
+                    changeState(1, data.iid,"");
+                })
+            }else if(layEvent === 'refuse'){
+                console.log("拒绝");
+                layer.open({
+                    id:1,
+                    type: 1,
+                    title:'请输入拒绝理由',
+                    skin:'layui-layer-rim',
+                    area:['450px', 'auto'],
+                    content: ' <div class="row" style="width: 420px;  margin-left:7px; margin-top:10px;">'
+                        +'<div class="col-sm-12">'
+                        +'<div class="input-group">'
+                        +'<input id="reason" type="text" class="form-control" value="非法" style="width: 100%;">'
+                        +'</div>'
+                        +'</div>'
+                        +'</div>'
+                    ,
+                    btn:['保存','取消'],
+                    btn1: function (index,layero) {
+                        var msg  = $("#reason").val()
+                        changeState(2, data.iid,msg);
+                        layer.close(index);
+                    },
+                    btn2:function (index,layero) {
+                        layer.close(index);
+                    }
+
+                });
+            }else {
+                var zt;
+                if (data.czt === '待审核') {
+                    zt = 'ZT01'
+                } else if (data.czt === '已通过') {
+                    zt = 'ZT02'
+                } else if (data.czt === '已拒绝') {
+                    zt = 'ZT03'
+                } else {
+                    zt = 'ZT04'
+                }
+                parent.layui.index.openTabsPage("admin/applyDetail?id=" + data.iid + "&type=" + "mjk"+"&zt="+zt, "详情");
+            }
+
+        });
+        function getControl(cgl1, cgl2) {
+            console.log(cgl1, cgl2);
+            var arr = {
+                "code": "1007",
+                "key": uid,
+                "cgl1": cgl1,
+                "cgl2": cgl2
+            };
+            arr = JSON.stringify(arr);
+            $.ajax({
+                url:url,
+                data:arr,
+                headers:{
+                    "Content-Type": "application/json"
+                },
+                async:false,
+                type:"post",
+                success:function (res) {
+                    res = JSON.parse(res);
+                    console.log(res);
+                    if (res.flag === 'OK') {
+                        if (res.items.length !== 0) {
+                            for (var i = 0; i < res.items.length; i++) {
+                                if (res.items[i].cxb === 'XB01') {
+                                    res.items[i].cxb = '男'
+                                } else {
+                                    res.items[i].cxb = '女'
+                                }
+                                if (res.items[i].czt === 'ZT01') {
+                                    res.items[i].czt = '待审核'
+                                } else if (res.items[i].czt === 'ZT02') {
+                                    res.items[i].czt = '已通过'
+                                } else if (res.items[i].czt === 'ZT03') {
+                                    res.items[i].czt = '已拒绝'
+                                } else {
+                                    res.items[i].czt = '已反馈'
+                                }
+                            }
+                        }
+                        table.render({
+                            elem: '#test-table-cellEdit'
+                            , skin: 'line' //表格风格
+                            , even: true
+                            , page: true //是否显示分页
+                            , limits: [10, 20, 30]
+                            , limit: 10 //每页默认显示的数量
+                            , cols: [
+                                [ //标题栏
+                                    {field: 'iid', title: 'ID', sort: true, align: 'center'}
+                                    , {field: 'cxm', title: '姓名', align: 'center'}
+                                    , {field: 'cxb', title: '性别', align: 'center'}
+                                    , {field: 'cxh', title: '学号', align: 'center'}
+                                    , {field: 'ckh', title: '卡号', align: 'center'}
+                                    , {field: 'cyxxx', title: '院系信息', align: 'center'}
+                                    , {field: 'dcsrq', title: '出生日期', align: 'center'}
+                                    , {field: 'czt', title: '状态', align: 'center'}
+                                    , { fixed: 'right',title: "操作", width: 200,align: 'center',toolbar: '#barDemo'}
+                                ]
+                            ]
+                            , data: res.items
+                        });
+                    } else {
+                        layer.msg(res.msg);
+                        if (res.msg === '登录失效！') {
+                            location.href = '../index';
+                        }
+                    }
+                }
+            })
+        }
+    //    修改门禁卡的审核状态
+        function changeState(state,id,msg) {
+            var zt,msg;
+            if (state === 1) {
+                zt = 'ZT02'
+            } else if (state === 2) {
+                zt = 'ZT03'
+                msg = msg
+            }
+            var arr = {
+                "code":"1006",
+                "key":uid,
+                "id":id,
+                "zt":zt,
+                "msg":msg
+            };
+            console.log(arr);
+            arr = JSON.stringify(arr);
+            console.log(arr);
+            $.ajax({
+                url: url,
+                data: arr,
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                async: false,
+                type: "post",
+                success: function (res) {
+                    res = JSON.parse(res);
+                    console.log(res);
+                    if (res.flag==='OK'){
+                        if(res.items.cbm==='OK'){
+                            layer.msg(res.items.cmsg);
+                            getControl(cgl1,cgl2);
+                        }else {
+                            layer.msg(res.items.cmsg);
+                        }
+                    }else {
+                        layer.msg(res.items.cmsg);
+                    }
+                }
+            })
+        }
+
+
+    });
+</script>
+
+</body>
+</html>

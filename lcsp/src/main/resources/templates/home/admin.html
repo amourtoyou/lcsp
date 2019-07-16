@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>首页展示</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="/layuiadmin/style/admin.css" media="all">
+    <style>
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        /*div高度为200px，宽度为30%,margin20px*/
+        .body-div {
+            /*width: 30%;*/
+            height: 160px;
+            margin: 20px;
+        }
+
+        /*图片自适应*/
+        .img-auto {
+            width: 100%;
+            height: 100%;
+        }
+
+        .lie {
+            padding: 20px;
+        }
+
+        .lie > li {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-row layui-col-space15">
+
+
+                <div class="layui-col-md12" style="padding: 20px;">
+                    <div class="layui-card">
+                        <div class="layui-card-header">每日流程申请统计曲线图</div>
+                        <div class="layui-card-body">
+                            <div style="background: #f7f7f7;" class="layui-carousel layadmin-carousel layadmin-dataview"
+                                 data-anim="fade" lay-filter="LAY-index-dataview">
+                                <div id="main" style="width: 100%;height:350px;text-align: center"></div>
+                            </div>
+                        </div>
+                        <!--申请排列-->
+                        <div class="flex-row">
+                            <div class="flex-column body-div" lay-href="/admin/cardList" lay-text="校园卡相关">
+                                <img class="img-auto"
+                                     src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562548849&di=6974db961e58342d7b65ee87f8c9e3a6&imgtype=jpg&er=1&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20190601%2F21d2ec5495c74a6b92ef04d9ab97e3b0.jpeg"
+                                     alt="">
+                                <div style="text-align: center">
+                                    校园卡开卡<span class="layui-badge" id="xyk"></span>
+                                </div>
+                            </div>
+                            <div class="flex-column body-div" lay-href="/admin/controlList" lay-text="门禁相关">
+                                <img class="img-auto"
+                                     src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562548849&di=6974db961e58342d7b65ee87f8c9e3a6&imgtype=jpg&er=1&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20190601%2F21d2ec5495c74a6b92ef04d9ab97e3b0.jpeg"
+                                     alt="">
+                                <div style="text-align: center">
+                                    开关门禁<span class="layui-badge" id="mjk"></span>
+                                </div>
+                            </div>
+                            <div class="flex-column body-div" lay-href="/admin/adjustmentList" lay-text="调账相关">
+                                <img class="img-auto"
+                                     src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562548849&di=6974db961e58342d7b65ee87f8c9e3a6&imgtype=jpg&er=1&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20190601%2F21d2ec5495c74a6b92ef04d9ab97e3b0.jpeg"
+                                     alt="">
+                                <div style="text-align: center">
+                                    调账<span class="layui-badge" id="dz"></span>
+                                </div>
+                            </div>
+                            <div class="flex-column body-div" lay-href="/admin/pwdApplyList" lay-text="密码相关">
+                                <img class="img-auto"
+                                     src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562548849&di=6974db961e58342d7b65ee87f8c9e3a6&imgtype=jpg&er=1&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20190601%2F21d2ec5495c74a6b92ef04d9ab97e3b0.jpeg"
+                                     alt="">
+                                <div style="text-align: center">
+                                    密码修改<span class="layui-badge" id="psd"></span>
+                                </div>
+                            </div>
+                            <div class="flex-column body-div" lay-href="/admin/serverList" lay-text="服务器相关">
+                                <img class="img-auto"
+                                     src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1562548849&di=6974db961e58342d7b65ee87f8c9e3a6&imgtype=jpg&er=1&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20190601%2F21d2ec5495c74a6b92ef04d9ab97e3b0.jpeg"
+                                     alt="">
+                                <div style="text-align: center">
+                                    服务器申请<span class="layui-badge" id="fwq"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="/app.js"></script>
+<script src="/echarts.min.js"></script>
+<script src="/layuiadmin/layui/layui.js?t=1"></script>
+<script>
+
+    layui.config({
+        base: '/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'console'], function () {
+        var $ = layui.jquery;
+        var url = window.url;
+        var uid = localStorage.getItem('uid');
+        var echartsData;
+        getMount();
+
+        //  将前五天的日期拼成一个数组
+        var dateArr = [];
+        for (var i = -4; i < 1; i++) {
+            dateArr.push(getDate(i));
+        }
+        getEchart();
+
+        function getEchart() {
+            var arr = {
+                "code": "2004"
+            };
+            arr = JSON.stringify(arr);
+            $.ajax({
+                url: url,
+                data: arr,
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                async:false,
+                type: "post",
+                success: function (res) {
+                    res = JSON.parse(res);
+                    echartsData = res.items;
+                }
+            })
+        }
+
+        function getDate(dayCount) {
+            if (null == dayCount) {
+                dayCount = 0;
+            }
+            var dd = new Date();
+            dd.setDate(dd.getDate() + dayCount);//设置日期
+            var y = dd.getFullYear();
+            var m = dd.getMonth() + 1;//获取当前月份的日期
+            var d = dd.getDate();
+            return y+"-"+m+"-"+d;
+            // return m + "-" + d;
+        }
+
+        //获取今天申请的统计
+        function getMount() {
+            var arr = {
+                "code": "2001",
+                "key": uid
+            };
+            arr = JSON.stringify(arr);
+            $.ajax({
+                url: url,
+                data: arr,
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                // async:false,
+                type: "post",
+                success: function (res) {
+                    res = JSON.parse(res);
+                    if (res.flag === 'OK') {
+                        $("#xyk").text(res.items.xyk);
+                        $("#mjk").text(res.items.mjk);
+                        $("#dz").text(res.items.dz);
+                        $("#psd").text(res.items.psd);
+                        $("#fwq").text(res.items.fwq);
+                    } else {
+                        layer.msg(res.items.cmsg);
+                    }
+                }
+            })
+        }
+
+//    echarts图表
+//    基于已准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById("main"));
+        // console.log(echartsData);
+//指定图表的配置项和数据
+        var option = {
+            // title: {
+            //     text: '折线图堆叠'
+            // },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data:['校园卡','门禁卡','服务器','调账','密码']
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            toolbox: {
+                // feature: {
+                //     saveAsImage: {}
+                // }
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                data: dateArr
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [
+                {
+                    name:'校园卡',
+                    type:'line',
+                    smooth:true,
+                    data:echartsData[0]
+                },
+                {
+                    name:'门禁卡',
+                    type:'line',
+                    smooth:true,
+                    data:echartsData[1]
+                },
+                {
+                    name:'服务器',
+                    type:'line',
+                    smooth:true,
+                    data:echartsData[2]
+                },
+                {
+                    name:'调账',
+                    type:'line',
+                    smooth:true,
+                    data:echartsData[3]
+                },
+                {
+                    name:'密码',
+                    type:'line',
+                    smooth:true,
+                    data:echartsData[4]
+                }
+            ]
+        };
+        myChart.setOption(option);
+
+    });
+
+
+
+
+
+</script>
+</body>
+</html>
+

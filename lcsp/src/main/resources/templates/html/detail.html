@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>调账</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="/layuiadmin/style/admin.css" media="all">
+
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row  layui-col-space10">
+
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <div style="color:red;font-size: 16px;text-align: center;" id="title">四川农业大学发文稿纸</div>
+                    <form class="layui-form" action="">
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">姓名</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="stuName" id="stuName" disabled placeholder="请输入学生姓名"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item" id="csex">
+                            <label class="layui-form-label">性别</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="sex" id="sex" disabled
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">学号</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="stuNum" id="stuNum" disabled placeholder="请输入学号"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item" id="card">
+                            <label class="layui-form-label">卡号</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="cardNum" id="cardNum" disabled placeholder="请输入卡号"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item" id="csrq">
+                            <label class="layui-form-label">出生日期</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="birth" id="birth" disabled
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item" id="user" style="display: none;">
+                            <label class="layui-form-label">账号</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="cuser" id="cuser" disabled
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <!--<div class="layui-form-item" id="pwd" style="display: none;">-->
+                            <!--<label class="layui-form-label">密码</label>-->
+                            <!--<div class="layui-input-block">-->
+                                <!--<input type="text" name="cpwd" id="cpwd" disabled-->
+                                       <!--autocomplete="off" class="layui-input">-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <div class="layui-form-item" id="type" style="display: none;">
+                            <label class="layui-form-label">修改类型</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="itype" id="itype" disabled
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item" id="bz" style="display: none;">
+                            <label class="layui-form-label">备注</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="cbz" id="cbz" disabled
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item" id="yxxx">
+                            <label class="layui-form-label">院系信息</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="campusInfo" id="campusInfo" disabled
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item" id="yysj" style="display: none;">
+                            <label class="layui-form-label">预约时间</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="campusInfo" id="time" disabled
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item" id="dz" style="display: none;">
+                            <label class="layui-form-label">地址</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="campusInfo" id="cdz" disabled
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item" id="backDiv">
+                            <label class="layui-form-label">反馈信息</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="campusInfo" id="back" disabled
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+
+                    </form>
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <button type="button" class="layui-btn" id="zt" style=""></button>
+                            <button class="layui-btn layui-btn-normal" id="resubmit" style="display: none">重新提交</button>
+                            <button class="layui-btn layui-btn-primary" id="evaluate" style="display: none">评价</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/app.js"></script>
+<script src="/layuiadmin/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: '/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index','element'], function () {
+        var $ = layui.jquery,element = layui.element;
+        var uid = localStorage.getItem('uid');
+
+
+        var id = getUrlParam('id');
+        var type = getUrlParam('type');
+        if (type ==='xyk'){
+            $("#title").text("校园卡相关详情");
+        } else if (type==='mjk'){
+            $("#title").text("门禁卡相关详情");
+        }else if (type==='dz'){
+            $("#title").text("调账相关详情");
+            $("#yysj").show();
+            $("#dz").show();
+        } else if (type==='psd') {
+            $("#title").text("密码相关详情");
+            $("#csrq").hide();
+            $("#yxxx").hide();
+            $("#csex").hide();
+            $("#user").show();
+            // $("#pwd").show();
+            $("#type").show();
+            $("#bz").show();
+        }else if (type==='fwq') {
+            $("#title").text("服务器相关详情");
+        }
+        getDetail(id,type);
+
+        //去评价页面
+        $("#evaluate").click(function () {
+            parent.layui.index.openTabsPage("html/evaluate?id="+id+"&type="+type, "评价");
+            // parent.layui.admin.closeThisTabs();
+
+        });
+        $("#resubmit").click(function () {
+            changeState('ZT01', id);
+        });
+
+        function changeState(state, id) {
+            var code;
+            if (type ==='xyk'){
+                code = "1003"
+            } else if (type==='mjk'){
+                code = "1006"
+            }else if (type==='dz'){
+                code = "1012"
+            } else if (type==='psd') {
+                code = "1015"
+            }else if (type==='fwq') {
+                code = "1009"
+            }
+            var arr = {
+                "code": code,
+                "key": uid,
+                "id": id,
+                "zt": state,
+                "msg": ""
+            };
+            arr = JSON.stringify(arr);
+            $.ajax({
+                url: url,
+                data: arr,
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                async: false,
+                type: "post",
+                success: function (res) {
+                    res = JSON.parse(res);
+                    if (res.flag === 'OK') {
+                        if (res.items.cbm === 'OK') {
+                            parent.layui.admin.closeThisTabs();
+                        } else {
+                            layer.msg(res.items.cmsg);
+                        }
+                    } else {
+                        layer.msg(res.items.cmsg);
+                    }
+                }
+            })
+        }
+
+        //根据id和类型获取申请的详细信息
+        function getDetail(id,type) {
+            var arr = {
+                "code": "2002",
+                "key": uid,
+                "id": id,
+                "sq": type
+            };
+            arr = JSON.stringify(arr);
+            console.log(arr)
+            var obj;
+            $.ajax({
+                url: url,
+                data: arr,
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                async: false,
+                type: "post",
+                success: function (res) {
+                    res = JSON.parse(res);
+                    console.log(res.items);
+                    if (res.items.cxb === 'XB01') {
+                        res.items.cxb = '男'
+                    } else {
+                        res.items.cxb = '女'
+                    }
+                    if (res.items.czt === 'ZT01') {
+                        res.items.czt = '待审核';
+                        $("#zt").addClass("layui-btn layui-btn-normal");
+                    } else if (res.items.czt === 'ZT02') {
+                        res.items.czt = '已通过';
+                        $("#evaluate").show();
+                    } else if (res.items.czt === 'ZT03') {
+                        res.items.czt = '被拒绝';
+                        $("#zt").addClass("layui-btn layui-btn-danger");
+                        $("#resubmit").show();
+                    } else {
+                        res.items.czt = '已反馈';
+                    }
+                    if (!res.items.ckh) {
+                        $("#card").hide();
+                    } else {
+                        $("#cardNum").val(res.items.ckh);
+                    }
+                    $("#stuNum").val(res.items.cxh);
+                    $("#sex").val(res.items.cxb);
+                    $("#stuName").val(res.items.cxm);
+                    $("#birth").val(res.items.dcsrq);
+                    $("#campusInfo").val(res.items.cyxxx);
+                    //调账申请---预约时间
+                    if (res.items.dyysj){
+                        $("#time").val(res.items.dyysj)
+                    }
+                    $("#zt").text(res.items.czt);
+                    //如果有账号----针对密码
+                    if (res.items.cuser){
+                        $("#cuser").val(res.items.cuser);
+                    }
+                    //如果有密码----针对密码   后面考虑到安全性问题，密码不在用户端展示
+                    // if (res.items.cpsd){
+                    //     $("#cpwd").val(res.items.cpsd);
+                    // }
+                    //如果有类型----针对密码
+                    if (res.items.itype){
+                        if (res.items.itype === 1) {
+                            res.items.itype = '一卡通'
+                        } else {
+                            res.items.itype = '邮箱'
+                        }
+                        $("#itype").val(res.items.itype);
+                    }
+                    //备注----针对密码
+                    if (res.items.bz){
+                        $("#cbz").val(res.items.bz);
+                    }
+                    if (!res.items.cpjnr){
+                        $("#backDiv").hide();
+                    }else {
+                        $("#back").val(res.items.cpjnr);
+                    }
+                }
+            });
+            return obj;
+        }
+
+        //获取url查询参数
+        function getUrlParam(name) {
+            //正则表达式
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return (r[2]);
+            return null;
+        }
+    });
+</script>
+</body>
+</html>

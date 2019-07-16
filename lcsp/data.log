@@ -1,0 +1,578 @@
+[tomcat.TomcatWebServer-INFO ]2019-07-01 15:22:47,077- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-01 15:22:47,249- Root WebApplicationContext: initialization completed in 1238 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-01 15:22:47,471- Initializing ExecutorService 'applicationTaskExecutor'
+[thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration-WARN ]2019-07-01 15:22:47,560- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[tomcat.TomcatWebServer-INFO ]2019-07-01 15:22:47,907- Tomcat started on port(s): 80 (http) with context path ''
+[tomcat.TomcatWebServer-INFO ]2019-07-01 15:30:26,992- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-01 15:30:27,150- Root WebApplicationContext: initialization completed in 1142 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-01 15:30:27,516- Initializing ExecutorService 'applicationTaskExecutor'
+[thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration-WARN ]2019-07-01 15:30:27,617- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[tomcat.TomcatWebServer-INFO ]2019-07-01 15:30:27,763- Tomcat started on port(s): 80 (http) with context path ''
+[tomcat.TomcatWebServer-INFO ]2019-07-02 09:37:35,091- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-02 09:37:35,288- Root WebApplicationContext: initialization completed in 1369 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-02 09:37:35,723- Initializing ExecutorService 'applicationTaskExecutor'
+[thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration-WARN ]2019-07-02 09:37:35,816- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[tomcat.TomcatWebServer-INFO ]2019-07-02 09:37:35,993- Tomcat started on port(s): 80 (http) with context path ''
+[tomcat.TomcatWebServer-INFO ]2019-07-02 09:38:12,456- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-02 09:38:12,644- Root WebApplicationContext: initialization completed in 1196 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-02 09:38:13,036- Initializing ExecutorService 'applicationTaskExecutor'
+[thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration-WARN ]2019-07-02 09:38:13,123- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[tomcat.TomcatWebServer-INFO ]2019-07-02 09:38:13,285- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-02 09:39:07,817- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-02 09:39:07,823- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-02 10:01:06,477- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-02 10:01:06,630- Root WebApplicationContext: initialization completed in 1186 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-02 10:01:07,001- Initializing ExecutorService 'applicationTaskExecutor'
+[thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration-WARN ]2019-07-02 10:01:07,101- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[tomcat.TomcatWebServer-INFO ]2019-07-02 10:01:07,585- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-02 10:01:22,697- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-02 10:01:22,705- Completed initialization in 7 ms
+[handler.AbstractHandlerExceptionResolver-WARN ]2019-07-02 10:01:22,722- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[servlet.DispatcherServlet-WARN ]2019-07-02 10:01:30,076- No mapping for GET /lcsp/1.jpg
+[servlet.DispatcherServlet-WARN ]2019-07-02 10:01:35,186- No mapping for GET /1.jpg
+[tomcat.TomcatWebServer-INFO ]2019-07-02 10:05:11,255- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-02 10:05:11,404- Root WebApplicationContext: initialization completed in 1097 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-02 10:05:11,739- Initializing ExecutorService 'applicationTaskExecutor'
+[thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration-WARN ]2019-07-02 10:05:11,824- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[tomcat.TomcatWebServer-INFO ]2019-07-02 10:05:11,969- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-02 10:05:16,680- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-02 10:05:16,685- Completed initialization in 5 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-02 10:06:47,584- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-02 10:06:47,762- Root WebApplicationContext: initialization completed in 1137 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-02 10:06:48,116- Initializing ExecutorService 'applicationTaskExecutor'
+[thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration-WARN ]2019-07-02 10:06:48,209- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[tomcat.TomcatWebServer-INFO ]2019-07-02 10:06:48,386- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-02 10:09:35,703- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-02 10:09:35,709- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-02 10:10:32,669- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-02 10:10:32,874- Root WebApplicationContext: initialization completed in 1218 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-02 10:10:33,273- Initializing ExecutorService 'applicationTaskExecutor'
+[thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration-WARN ]2019-07-02 10:10:33,363- Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[tomcat.TomcatWebServer-INFO ]2019-07-02 10:10:33,512- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-02 10:11:15,347- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-02 10:11:15,353- Completed initialization in 5 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-02 11:49:23,356- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-02 11:49:23,650- Root WebApplicationContext: initialization completed in 1353 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-02 11:49:24,295- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-02 11:49:24,616- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-02 11:49:31,694- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-02 11:49:31,700- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-02 11:49:51,547- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-02 11:49:51,713- Root WebApplicationContext: initialization completed in 1197 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-02 11:49:52,091- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-02 11:49:52,415- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-02 11:49:56,579- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-02 11:49:56,585- Completed initialization in 6 ms
+[servlet.DispatcherServlet-WARN ]2019-07-02 11:49:56,804- No mapping for GET /1.jpg
+[servlet.DispatcherServlet-WARN ]2019-07-02 11:49:57,852- No mapping for GET /1.jpg
+[servlet.DispatcherServlet-WARN ]2019-07-02 11:49:58,744- No mapping for GET /1.jpg
+[servlet.DispatcherServlet-WARN ]2019-07-02 11:49:59,356- No mapping for GET /1.jpg
+[servlet.DispatcherServlet-WARN ]2019-07-02 11:49:59,575- No mapping for GET /1.jpg
+[servlet.DispatcherServlet-WARN ]2019-07-02 11:49:59,760- No mapping for GET /1.jpg
+[tomcat.TomcatWebServer-INFO ]2019-07-02 11:51:42,260- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-02 11:51:42,450- Root WebApplicationContext: initialization completed in 1165 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-02 11:51:42,848- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-02 11:51:43,090- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-02 11:52:15,806- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-02 11:52:15,812- Completed initialization in 6 ms
+[servlet.DispatcherServlet-WARN ]2019-07-02 11:52:16,060- No mapping for GET /1.jpg
+[tomcat.TomcatWebServer-INFO ]2019-07-02 11:53:08,868- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-02 11:53:09,060- Root WebApplicationContext: initialization completed in 1188 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-02 11:53:09,411- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-02 11:53:09,657- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-02 11:53:13,058- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-02 11:53:13,063- Completed initialization in 5 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 08:44:05,151- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 08:44:05,480- Root WebApplicationContext: initialization completed in 1919 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 08:44:06,094- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 08:44:06,491- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 08:44:08,591- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 08:44:08,600- Completed initialization in 8 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 08:44:58,169- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 08:44:58,319- Root WebApplicationContext: initialization completed in 1123 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 08:44:58,660- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 08:44:58,901- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 08:45:01,396- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 08:45:01,402- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:36:09,543- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 09:36:09,700- Root WebApplicationContext: initialization completed in 1370 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 09:36:10,190- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:36:10,518- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 09:36:52,606- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 09:36:52,611- Completed initialization in 5 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:37:47,765- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 09:37:47,929- Root WebApplicationContext: initialization completed in 1336 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 09:37:48,409- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:37:48,695- Tomcat started on port(s): 80 (http) with context path ''
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:41:23,246- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 09:41:23,428- Root WebApplicationContext: initialization completed in 1341 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 09:41:23,964- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:41:24,258- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 09:41:27,832- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 09:41:27,839- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:41:46,968- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 09:41:47,127- Root WebApplicationContext: initialization completed in 1320 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 09:41:47,623- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:41:47,909- Tomcat started on port(s): 80 (http) with context path ''
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:43:24,118- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 09:43:24,307- Root WebApplicationContext: initialization completed in 1403 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 09:43:24,832- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:43:25,122- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 09:43:31,245- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 09:43:31,251- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:45:18,164- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 09:45:18,310- Root WebApplicationContext: initialization completed in 1388 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 09:45:18,721- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 09:45:19,044- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 09:45:27,696- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 09:45:27,702- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 10:11:35,781- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 10:11:35,946- Root WebApplicationContext: initialization completed in 1393 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 10:11:36,393- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 10:11:36,686- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 10:17:39,561- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 10:17:39,570- Completed initialization in 9 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 10:21:36,885- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 10:21:37,046- Root WebApplicationContext: initialization completed in 1572 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 10:21:37,518- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 10:21:37,803- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 10:23:53,471- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 10:23:53,477- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 10:25:09,311- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 10:25:09,465- Root WebApplicationContext: initialization completed in 1427 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 10:25:10,001- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 10:25:10,318- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 10:25:18,431- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 10:25:18,438- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 10:43:48,650- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 10:43:48,840- Root WebApplicationContext: initialization completed in 1609 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 10:43:49,370- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 10:43:49,711- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 10:47:13,678- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 10:47:13,692- Completed initialization in 14 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 10:49:56,411- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 10:49:56,696- Root WebApplicationContext: initialization completed in 2517 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 10:49:57,545- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 10:49:58,056- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 10:50:03,418- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 10:50:03,430- Completed initialization in 12 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 11:36:13,655- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 11:36:13,990- Root WebApplicationContext: initialization completed in 2835 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 11:36:15,022- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 11:36:15,559- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 11:37:10,304- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 11:37:10,318- Completed initialization in 14 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 11:40:45,602- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 11:40:45,934- Root WebApplicationContext: initialization completed in 2768 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 11:40:46,769- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 11:40:47,330- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 11:40:50,514- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 11:40:50,529- Completed initialization in 14 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 11:41:34,589- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 11:41:34,955- Root WebApplicationContext: initialization completed in 2629 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 11:41:35,770- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 11:41:36,321- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 11:42:35,773- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 11:42:35,788- Completed initialization in 14 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:29:06,163- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 14:29:06,338- Root WebApplicationContext: initialization completed in 1652 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 14:29:06,842- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:29:07,154- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:30:05,813- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:30:05,828- Completed initialization in 15 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:30:44,178- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 14:30:44,332- Root WebApplicationContext: initialization completed in 1363 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 14:30:44,863- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:30:45,156- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:31:25,460- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:31:25,466- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:32:29,404- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 14:32:29,590- Root WebApplicationContext: initialization completed in 1428 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 14:32:30,143- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:32:30,458- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:32:40,813- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:32:40,829- Completed initialization in 16 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:37:31,837- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 14:37:32,010- Root WebApplicationContext: initialization completed in 1506 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 14:37:32,535- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:37:32,843- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:38:01,850- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:38:01,856- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:38:27,833- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 14:38:28,004- Root WebApplicationContext: initialization completed in 1407 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 14:38:28,431- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:38:28,724- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:38:33,938- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:38:33,950- Completed initialization in 12 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:45:55,750- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 14:45:55,914- Root WebApplicationContext: initialization completed in 1396 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 14:45:56,404- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 14:45:56,700- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:46:21,267- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 14:46:21,273- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 15:01:45,781- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 15:01:45,967- Root WebApplicationContext: initialization completed in 1471 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 15:01:46,541- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 15:01:46,833- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 15:01:49,660- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 15:01:49,667- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 15:17:23,809- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 15:17:23,978- Root WebApplicationContext: initialization completed in 1411 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 15:17:24,478- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 15:17:24,775- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 15:18:00,032- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 15:18:00,049- Completed initialization in 17 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 15:27:00,988- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 15:27:01,150- Root WebApplicationContext: initialization completed in 1455 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 15:27:01,636- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 15:27:01,931- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 15:27:23,022- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 15:27:23,028- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 15:46:17,992- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 15:46:18,156- Root WebApplicationContext: initialization completed in 1515 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 15:46:18,747- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 15:46:19,101- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 15:46:45,956- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 15:46:45,963- Completed initialization in 6 ms
+[handler.AbstractHandlerExceptionResolver-WARN ]2019-07-03 15:57:43,131- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' not supported]
+[tomcat.TomcatWebServer-INFO ]2019-07-03 15:57:56,789- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 15:57:56,953- Root WebApplicationContext: initialization completed in 1622 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 15:57:57,549- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 15:57:57,872- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 15:58:00,912- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 15:58:00,917- Completed initialization in 5 ms
+[handler.AbstractHandlerExceptionResolver-WARN ]2019-07-03 15:58:01,837- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' not supported]
+[handler.AbstractHandlerExceptionResolver-WARN ]2019-07-03 15:58:03,425- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' not supported]
+[handler.AbstractHandlerExceptionResolver-WARN ]2019-07-03 15:58:05,882- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' not supported]
+[tomcat.TomcatWebServer-INFO ]2019-07-03 16:07:06,680- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 16:07:06,840- Root WebApplicationContext: initialization completed in 1379 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 16:07:07,355- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 16:07:07,686- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 16:07:26,487- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 16:07:26,494- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 16:12:11,120- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 16:12:11,283- Root WebApplicationContext: initialization completed in 1452 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 16:12:11,860- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 16:12:12,158- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 16:12:14,831- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 16:12:14,838- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 16:21:01,710- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 16:21:01,876- Root WebApplicationContext: initialization completed in 1563 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 16:21:02,430- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 16:21:02,763- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 16:21:17,338- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 16:21:17,355- Completed initialization in 17 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 17:08:40,435- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 17:08:40,789- Root WebApplicationContext: initialization completed in 3093 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 17:08:41,881- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 17:08:42,498- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 17:08:55,256- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 17:08:55,274- Completed initialization in 18 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 17:09:38,465- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 17:09:38,828- Root WebApplicationContext: initialization completed in 2969 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 17:09:39,807- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 17:09:40,449- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 17:09:43,393- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 17:09:43,410- Completed initialization in 16 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-03 17:28:38,480- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-03 17:28:38,840- Root WebApplicationContext: initialization completed in 2945 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-03 17:28:39,784- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-03 17:28:40,355- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-03 17:28:55,812- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-03 17:28:55,824- Completed initialization in 12 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-04 09:30:17,440- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-04 09:30:17,685- Root WebApplicationContext: initialization completed in 2438 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-04 09:30:18,623- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-04 09:30:19,234- Tomcat started on port(s): 80 (http) with context path ''
+[tomcat.TomcatWebServer-INFO ]2019-07-04 09:40:44,384- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-04 09:40:44,662- Root WebApplicationContext: initialization completed in 2449 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-04 09:40:45,569- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-04 09:40:46,104- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-04 09:42:25,035- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-04 09:42:25,046- Completed initialization in 11 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-04 09:47:17,281- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-04 09:47:17,607- Root WebApplicationContext: initialization completed in 2438 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-04 09:47:18,495- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-04 09:47:19,091- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-04 10:07:19,337- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-04 10:07:19,345- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-04 10:33:58,400- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-04 10:33:58,578- Root WebApplicationContext: initialization completed in 1507 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-04 10:33:59,083- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-04 10:33:59,392- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-04 10:34:12,048- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-04 10:34:12,055- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-04 11:14:52,925- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-04 11:14:53,105- Root WebApplicationContext: initialization completed in 1906 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-04 11:14:53,617- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-04 11:14:53,936- Tomcat started on port(s): 80 (http) with context path ''
+[tomcat.TomcatWebServer-INFO ]2019-07-04 11:15:25,642- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-04 11:15:25,809- Root WebApplicationContext: initialization completed in 1451 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-04 11:15:26,350- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-04 11:15:26,662- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-04 11:15:59,086- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-04 11:15:59,092- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-04 12:00:18,613- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-04 12:00:18,970- Root WebApplicationContext: initialization completed in 3175 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-04 12:00:19,939- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-04 12:00:20,505- Tomcat started on port(s): 80 (http) with context path ''
+[tomcat.TomcatWebServer-INFO ]2019-07-04 12:00:53,371- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-04 12:00:53,670- Root WebApplicationContext: initialization completed in 2770 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-04 12:00:54,620- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-04 12:00:55,146- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-04 12:01:01,169- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-04 12:01:01,183- Completed initialization in 14 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-04 12:02:09,177- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-04 12:02:09,489- Root WebApplicationContext: initialization completed in 2605 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-04 12:02:10,430- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-04 12:02:10,958- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-04 12:02:19,019- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-04 12:02:19,035- Completed initialization in 14 ms
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-04 15:53:37,954- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.yx.lcsp.LcspApplicationTests], using SpringBootContextLoader
+[support.AbstractContextLoader-INFO ]2019-07-04 15:53:37,985- Could not detect default resource locations for test class [com.yx.lcsp.LcspApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[support.AnnotationConfigContextLoaderUtils-INFO ]2019-07-04 15:53:37,987- Could not detect default configuration classes for test class [com.yx.lcsp.LcspApplicationTests]: LcspApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[context.SpringBootTestContextBootstrapper-INFO ]2019-07-04 15:53:38,275- Found @SpringBootConfiguration com.yx.lcsp.LcspApplication for test class com.yx.lcsp.LcspApplicationTests
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-04 15:53:38,533- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-04 15:53:38,586- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@133b6c6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13e8655, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1fb0c0f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6abbd0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9bb4dd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@19e9475, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@a078fd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@123e042, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@d59067, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@10399f4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@dd7b39, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ea810]
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-04 15:53:44,386- Initializing ExecutorService 'applicationTaskExecutor'
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-04 15:53:46,205- Shutting down ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 10:05:09,805- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 10:05:09,985- Root WebApplicationContext: initialization completed in 1735 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 10:05:10,571- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 10:05:10,953- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 10:05:23,000- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 10:05:23,007- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 10:13:42,694- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 10:13:42,853- Root WebApplicationContext: initialization completed in 1372 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 10:13:43,348- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 10:13:43,638- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 10:13:52,811- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 10:13:52,819- Completed initialization in 8 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 10:14:45,326- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 10:14:45,475- Root WebApplicationContext: initialization completed in 1452 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 10:14:45,995- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 10:14:46,297- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 10:14:50,084- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 10:14:50,090- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 10:16:12,166- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 10:16:12,337- Root WebApplicationContext: initialization completed in 1441 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 10:16:12,873- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 10:16:13,163- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 10:16:17,124- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 10:16:17,131- Completed initialization in 7 ms
+[handler.AbstractHandlerExceptionResolver-WARN ]2019-07-05 11:31:38,610- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[tomcat.TomcatWebServer-INFO ]2019-07-05 11:51:40,366- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 11:51:40,768- Root WebApplicationContext: initialization completed in 3490 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 11:51:41,850- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 11:51:42,434- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 11:51:43,110- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 11:51:43,126- Completed initialization in 15 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 11:52:44,686- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 11:52:45,028- Root WebApplicationContext: initialization completed in 2622 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 11:52:45,853- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 11:52:46,418- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 11:52:51,154- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 11:52:51,164- Completed initialization in 10 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 12:01:14,805- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 12:01:15,142- Root WebApplicationContext: initialization completed in 2720 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 12:01:16,088- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 12:01:16,574- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 12:01:21,910- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 12:01:21,922- Completed initialization in 12 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 13:54:15,199- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 13:54:15,363- Root WebApplicationContext: initialization completed in 1650 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 13:54:16,033- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 13:54:16,328- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 13:54:18,899- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 13:54:18,907- Completed initialization in 8 ms
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-05 13:56:12,512- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.yx.lcsp.LcspApplicationTests], using SpringBootContextLoader
+[support.AbstractContextLoader-INFO ]2019-07-05 13:56:12,528- Could not detect default resource locations for test class [com.yx.lcsp.LcspApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[support.AnnotationConfigContextLoaderUtils-INFO ]2019-07-05 13:56:12,529- Could not detect default configuration classes for test class [com.yx.lcsp.LcspApplicationTests]: LcspApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[context.SpringBootTestContextBootstrapper-INFO ]2019-07-05 13:56:12,676- Found @SpringBootConfiguration com.yx.lcsp.LcspApplication for test class com.yx.lcsp.LcspApplicationTests
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-05 13:56:12,793- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-05 13:56:12,820- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@133b6c6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13e8655, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1fb0c0f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6abbd0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9bb4dd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@19e9475, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@a078fd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@123e042, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@d59067, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@10399f4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@dd7b39, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ea810]
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 13:56:15,617- Initializing ExecutorService 'applicationTaskExecutor'
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 13:56:16,580- Shutting down ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:14:58,873- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:14:59,062- Root WebApplicationContext: initialization completed in 1525 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:14:59,572- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:14:59,908- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:15:04,611- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:15:04,619- Completed initialization in 8 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:17:08,903- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:17:09,066- Root WebApplicationContext: initialization completed in 1539 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:17:09,683- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:17:09,982- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:17:11,577- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:17:11,584- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:18:28,606- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:18:28,765- Root WebApplicationContext: initialization completed in 1470 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:18:29,279- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:18:29,635- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:18:32,721- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:18:32,728- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:22:40,804- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:22:40,996- Root WebApplicationContext: initialization completed in 1501 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:22:41,612- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:22:41,918- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:22:47,115- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:22:47,123- Completed initialization in 8 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:24:19,557- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:24:19,738- Root WebApplicationContext: initialization completed in 1467 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:24:20,263- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:24:20,573- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:24:24,837- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:24:24,845- Completed initialization in 8 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:25:25,176- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:25:25,359- Root WebApplicationContext: initialization completed in 1534 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:25:25,973- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:25:26,406- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:25:32,984- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:25:32,990- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:28:30,851- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:28:31,033- Root WebApplicationContext: initialization completed in 1574 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:28:31,558- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:28:31,900- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:28:34,964- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:28:34,972- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:30:33,496- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:30:33,668- Root WebApplicationContext: initialization completed in 1515 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:30:34,322- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:30:34,677- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:30:41,963- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:30:41,971- Completed initialization in 8 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:31:46,027- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:31:46,218- Root WebApplicationContext: initialization completed in 1472 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:31:46,915- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:31:47,255- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:31:54,730- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:31:54,737- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:33:01,911- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:33:02,086- Root WebApplicationContext: initialization completed in 1445 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:33:02,718- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:33:03,022- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:33:13,466- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:33:13,473- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:34:23,435- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:34:23,600- Root WebApplicationContext: initialization completed in 1503 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:34:24,213- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:34:24,521- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:34:34,200- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:34:34,207- Completed initialization in 6 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:42:02,815- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:42:03,025- Root WebApplicationContext: initialization completed in 1849 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:42:03,582- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:42:03,933- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:42:08,847- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:42:08,856- Completed initialization in 8 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:47:39,011- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:47:39,173- Root WebApplicationContext: initialization completed in 1462 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:47:39,702- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:47:40,023- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:47:47,713- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:47:47,720- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:49:59,564- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:49:59,732- Root WebApplicationContext: initialization completed in 1685 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:50:00,293- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:50:00,583- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:50:05,223- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:50:05,230- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:51:18,554- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:51:18,729- Root WebApplicationContext: initialization completed in 1452 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:51:19,247- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:51:19,550- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:51:42,029- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:51:42,036- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:54:04,903- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 14:54:05,065- Root WebApplicationContext: initialization completed in 1558 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 14:54:05,717- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 14:54:06,014- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:54:33,163- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 14:54:33,170- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 15:06:10,255- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 15:06:10,407- Root WebApplicationContext: initialization completed in 1436 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 15:06:11,002- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 15:06:11,303- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 15:06:26,006- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 15:06:26,014- Completed initialization in 8 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 15:07:31,706- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 15:07:31,889- Root WebApplicationContext: initialization completed in 1427 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 15:07:32,492- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 15:07:32,818- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 15:07:36,592- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 15:07:36,599- Completed initialization in 7 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-05 15:45:46,279- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-05 15:45:46,450- Root WebApplicationContext: initialization completed in 1744 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 15:45:46,983- Initializing ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-05 15:45:47,285- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-05 15:45:51,193- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-05 15:45:51,199- Completed initialization in 6 ms
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-05 17:28:55,793- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.yx.lcsp.LcspApplicationTests], using SpringBootContextLoader
+[support.AbstractContextLoader-INFO ]2019-07-05 17:28:55,810- Could not detect default resource locations for test class [com.yx.lcsp.LcspApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[support.AnnotationConfigContextLoaderUtils-INFO ]2019-07-05 17:28:55,811- Could not detect default configuration classes for test class [com.yx.lcsp.LcspApplicationTests]: LcspApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[context.SpringBootTestContextBootstrapper-INFO ]2019-07-05 17:28:55,965- Found @SpringBootConfiguration com.yx.lcsp.LcspApplication for test class com.yx.lcsp.LcspApplicationTests
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-05 17:28:56,119- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-05 17:28:56,150- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@133b6c6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13e8655, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1fb0c0f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6abbd0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9bb4dd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@19e9475, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@a078fd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@123e042, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@d59067, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@10399f4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@dd7b39, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6ea810]
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 17:28:59,114- Initializing ExecutorService 'applicationTaskExecutor'
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-05 17:29:00,217- Shutting down ExecutorService 'applicationTaskExecutor'
+[tomcat.TomcatWebServer-INFO ]2019-07-08 11:36:44,315- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-08 11:36:44,749- Root WebApplicationContext: initialization completed in 4379 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-08 11:36:45,972- Initializing ExecutorService 'applicationTaskExecutor'
+[servlet.WelcomePageHandlerMapping-INFO ]2019-07-08 11:36:46,335- Adding welcome page template: index
+[tomcat.TomcatWebServer-INFO ]2019-07-08 11:36:46,693- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-08 11:37:26,579- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-08 11:37:26,591- Completed initialization in 11 ms
+[handler.AbstractHandlerExceptionResolver-WARN ]2019-07-08 11:39:34,956- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[tomcat.TomcatWebServer-INFO ]2019-07-08 11:45:55,700- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-08 11:45:56,086- Root WebApplicationContext: initialization completed in 3233 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-08 11:45:57,099- Initializing ExecutorService 'applicationTaskExecutor'
+[servlet.WelcomePageHandlerMapping-INFO ]2019-07-08 11:45:57,417- Adding welcome page template: index
+[tomcat.TomcatWebServer-INFO ]2019-07-08 11:45:57,720- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-08 11:46:02,969- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-08 11:46:02,991- Completed initialization in 21 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-08 13:43:38,081- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-08 13:43:39,878- Root WebApplicationContext: initialization completed in 3895 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-08 13:43:40,581- Initializing ExecutorService 'applicationTaskExecutor'
+[servlet.WelcomePageHandlerMapping-INFO ]2019-07-08 13:43:40,765- Adding welcome page template: index
+[tomcat.TomcatWebServer-INFO ]2019-07-08 13:43:40,948- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-08 13:44:45,837- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-08 13:44:45,851- Completed initialization in 13 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-08 13:46:12,309- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-08 13:46:12,530- Root WebApplicationContext: initialization completed in 2109 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-08 13:46:13,463- Initializing ExecutorService 'applicationTaskExecutor'
+[servlet.WelcomePageHandlerMapping-INFO ]2019-07-08 13:46:13,695- Adding welcome page template: index
+[tomcat.TomcatWebServer-INFO ]2019-07-08 13:46:14,003- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-08 13:48:25,864- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-08 13:48:25,875- Completed initialization in 11 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-08 15:24:43,055- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-08 15:24:43,148- Root WebApplicationContext: initialization completed in 1144 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-08 15:24:43,444- Initializing ExecutorService 'applicationTaskExecutor'
+[servlet.WelcomePageHandlerMapping-INFO ]2019-07-08 15:24:43,599- Adding welcome page template: index
+[tomcat.TomcatWebServer-INFO ]2019-07-08 15:24:43,690- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-08 15:24:51,548- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-08 15:24:51,553- Completed initialization in 5 ms
+[tomcat.TomcatWebServer-INFO ]2019-07-08 16:33:13,007- Tomcat initialized with port(s): 80 (http)
+[context.ServletWebServerApplicationContext-INFO ]2019-07-08 16:33:13,106- Root WebApplicationContext: initialization completed in 1209 ms
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-08 16:33:13,662- Initializing ExecutorService 'applicationTaskExecutor'
+[servlet.WelcomePageHandlerMapping-INFO ]2019-07-08 16:33:13,855- Adding welcome page template: index
+[tomcat.TomcatWebServer-INFO ]2019-07-08 16:33:13,955- Tomcat started on port(s): 80 (http) with context path ''
+[servlet.FrameworkServlet-INFO ]2019-07-08 16:34:21,285- Initializing Servlet 'dispatcherServlet'
+[servlet.FrameworkServlet-INFO ]2019-07-08 16:34:21,292- Completed initialization in 6 ms
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-10 14:20:52,609- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.yx.lcsp.LcspApplicationTests], using SpringBootContextLoader
+[support.AbstractContextLoader-INFO ]2019-07-10 14:20:52,619- Could not detect default resource locations for test class [com.yx.lcsp.LcspApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[support.AnnotationConfigContextLoaderUtils-INFO ]2019-07-10 14:20:52,621- Could not detect default configuration classes for test class [com.yx.lcsp.LcspApplicationTests]: LcspApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[context.SpringBootTestContextBootstrapper-INFO ]2019-07-10 14:20:52,755- Found @SpringBootConfiguration com.yx.lcsp.LcspApplication for test class com.yx.lcsp.LcspApplicationTests
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-10 14:20:52,868- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-10 14:20:52,889- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@508dec2b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1e4f4a5c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@37313c65, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@465232e9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@798162bc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1df8da7a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@23941fb4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7486b455, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@660acfb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5d908d47, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5efa40fe, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1f9f6368]
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-10 14:20:56,137- Initializing ExecutorService 'applicationTaskExecutor'
+[servlet.WelcomePageHandlerMapping-INFO ]2019-07-10 14:20:56,529- Adding welcome page template: index
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-10 14:20:57,145- Shutting down ExecutorService 'applicationTaskExecutor'
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-10 14:31:59,375- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.yx.lcsp.LcspApplicationTests], using SpringBootContextLoader
+[support.AbstractContextLoader-INFO ]2019-07-10 14:31:59,390- Could not detect default resource locations for test class [com.yx.lcsp.LcspApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[support.AnnotationConfigContextLoaderUtils-INFO ]2019-07-10 14:31:59,392- Could not detect default configuration classes for test class [com.yx.lcsp.LcspApplicationTests]: LcspApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[context.SpringBootTestContextBootstrapper-INFO ]2019-07-10 14:31:59,532- Found @SpringBootConfiguration com.yx.lcsp.LcspApplication for test class com.yx.lcsp.LcspApplicationTests
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-10 14:31:59,685- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[support.AbstractTestContextBootstrapper-INFO ]2019-07-10 14:31:59,712- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@c1b2d2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1c19a70, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@8dec2b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4f4a5c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1313c65, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5232e9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@18162bc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1f8da7a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1941fb4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@86b455, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@60acfb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1908d47]
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-10 14:32:02,665- Initializing ExecutorService 'applicationTaskExecutor'
+[servlet.WelcomePageHandlerMapping-INFO ]2019-07-10 14:32:03,026- Adding welcome page template: index
+[concurrent.ExecutorConfigurationSupport-INFO ]2019-07-10 14:32:03,666- Shutting down ExecutorService 'applicationTaskExecutor'

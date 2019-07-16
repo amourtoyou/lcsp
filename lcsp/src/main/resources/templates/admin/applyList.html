@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>管理员申请</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="/layuiadmin/style/admin.css" media="all">
+    <style>
+        .check-detail{
+            color: #60828b;
+            border: none;
+            background: transparent;
+            height: 0;
+            line-height: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-body">
+
+                    <table class="layui-hide" id="test-table-cellEdit" lay-filter="test-table-cellEdit"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/html" id="barDemo">
+    <a class="layui-btn layui-btn-xs" lay-event="adopt">通过</a>
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="refuse">拒绝</a>
+    <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="check" lay-href="admin/applyDetail" lay-text="详情">查看</a>
+</script>
+<script src="/app.js"></script>
+<script src="/layuiadmin/layui/layui.js" charset="utf-8"></script>
+<!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
+<script>
+    layui.config({
+        base: '/layuiadmin/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index','table'], function () {
+        var table = layui.table, form = layui.form,$ = layui.jquery;
+        getApply();
+        //展示已知数据
+
+
+        $("#applyNew").click(function () {
+            location.href = '../html/applyNew';
+        });
+
+    //    对申请进行操作，通过、拒绝、查看
+        table.on('tool(test-table-cellEdit)',function (obj) {
+            var data = obj.data;
+            var layEvent = obj.event;
+            // console.log(data);
+            if (layEvent === 'adopt') {
+                // console.log("通过");
+                layer.confirm('是否确认通过该申请？', function(index){
+                    layer.close(index);
+                    //    对申请进行通过操作，请求ajax，之后重新渲染表格
+                })
+            }else if(layEvent === 'refuse'){
+                // console.log("拒绝");
+                layer.confirm('是否拒绝该申请？', function(index){
+                    layer.close(index);
+                    //    对申请进行拒绝操作，请求ajax，之后重新渲染表格
+                })
+            }
+        });
+
+        function getAll() {
+            var arr = {
+                "code": "2003",
+                "key": uid
+            };
+            arr = JSON.stringify(arr);
+            $.ajax({
+                url: url,
+                data: arr,
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                async: false,
+                type: "post",
+                success: function (res) {
+                    res = JSON.parse(res);
+                    console.log(res);
+                    for (var i = 0;i<res.items.length;i++){
+                        if (res.items[i].czt === 'ZT01') {
+                            res.items[i].czt = '待审核'
+                        }else if(res.items[i].czt === 'ZT02'){
+                            res.items[i].czt = '已通过'
+                        }else if(res.items[i].czt === 'ZT03'){
+                            res.items[i].czt = '已拒绝'
+                        }else{
+                            res.items[i].czt = '已反馈'
+                        }
+                    }
+                    table.render({
+                        elem: '#test-table-cellEdit'
+                        , skin: 'line' //表格风格
+                        , even: true
+                        , page: true //是否显示分页
+                        , limits: [10, 20, 30]
+                        , limit: 10 //每页默认显示的数量
+                        , cols: [
+                            [ //标题栏
+                                {field: 'id', title: 'ID', sort: true , align:'center'}
+                                , {field: 'cxm', title: '姓名', align:'center'}
+                                , {field: 'cxh', title: '学号', align:'center'}
+                                , {field: 'czt', title: '状态', align:'center'}
+                                , {field: 'dsqsj', title: '申请时间', align:'center'}
+                                , {field: 'sq', title: '分类', align:'center'}
+                                , {fixed: 'right',title:"操作", width: 200, align: 'center', toolbar: '#barDemo'}
+                            ]
+                        ]
+                        , data: res.items
+                    });
+                }
+            })
+        }
+    });
+</script>
+
+</body>
+</html>
